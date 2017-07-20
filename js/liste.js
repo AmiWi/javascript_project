@@ -14,7 +14,7 @@ var srcListe = [
  },
  {
    "id": 1,
-   "nom": "Dos Santos",
+   "nom": "DOS SANTOS",
    "prenom": "Christophe",
    "javascript": "Pas d'expérience",
    "fav_web": "behance / themeforest",

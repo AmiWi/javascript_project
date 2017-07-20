@@ -1,8 +1,8 @@
-console.log("je fonctionne");
+//console.log("je fonctionne");
 
 var data = srcListe;
 
-console.table(data);
+//console.table(data);
 
 var monUl = document.createElement("ul");
 var monWrap = document.getElementById("list");
@@ -27,6 +27,6 @@ function detectClick(event){
 	var eleveId = myTarget.getAttribute("data-idEleve");
 	console.log(eleveId);
 	
-	window.location = "profil.html" +'#'+ myTarget.getAttribute("data-idEleve") ;
+	window.location = "profil.html" +'#'+ myTarget.getAttribute("data-idEleve") ; //voir data() en jquery
 }
 

@@ -1,6 +1,6 @@
 //page détail...............................................................................................
 
-console.log('nouveau script profil');
+//console.log('nouveau script profil');
 // je récupère la liste
 var dataList = srcListe;
 // je recupere l'url ici  
@@ -14,19 +14,19 @@ var eleveId = url.hash;
 
 // j'enleve le hashtag pour recuperer l'id en string
 eleveId  = eleveId.substring(1);
-console.log(typeof eleveId);
+//console.log(typeof eleveId);
 
 eleveId  = parseFloat(eleveId);
-console.log(typeof eleveId);
+//console.log(typeof eleveId);
 
 
 // je cherche l'index dans la liste
 var myIndex = dataList.findIndex(function(i){ return i.id === eleveId });
-console.log(myIndex);
+//console.log(myIndex);
 
 // je cherche l'eleve correspondant a l'index
 var monuser = dataList[myIndex];
-console.log(monuser);
+//console.log(monuser);
 
 // je cherche les elements a binder
 var nom = document.getElementById("nom");
